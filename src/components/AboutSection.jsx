@@ -15,7 +15,7 @@ const credentials = [
     description: 'Redução alcançada em um dos projetos apresentados no portfólio.',
   },
   {
-    number: 'R$ 2 mi',
+    number: '+ R$ 2 mi',
     label: 'em receita otimizada',
     description: 'Resultado gerado com tecnologia, eficiência operacional e melhoria de processos.',
   },
