@@ -2,7 +2,7 @@ const plans = [
   {
     id: 'A',
     name: 'Monitoramento essencial',
-    price: '600',
+    price: '650',
     description: 'Para dar visibilidade à rede e contar com suporte especializado em horário comercial.',
     support: 'Horário comercial',
     features: [
