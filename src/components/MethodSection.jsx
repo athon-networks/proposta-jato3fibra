@@ -3,6 +3,21 @@ import { useState } from 'react'
 const methodServices = [
   {
     number: '01',
+    title: 'Segurança de redes',
+    description: 'Atuação para reduzir exposição a ataques, endurecer a operação e apoiar respostas a incidentes com critério técnico.',
+    icon: 'fa-shield-halved',
+    cadence: 'Proteção contínua',
+    deliverables: [
+      'Análise de superfície de ataque',
+      'Boas práticas de proteção anti-DDoS',
+      'Revisão de políticas e filtros',
+      'Apoio em incidentes de segurança',
+      'Recomendações de mitigação',
+      'Plano técnico para redução de risco',
+    ],
+  },
+  {
+    number: '02',
     title: 'Engenharia de redes',
     description: 'Arquitetura, capacidade, segurança e evolução técnica conforme o nível de maturidade contratado.',
     icon: 'fa-diagram-project',
@@ -17,7 +32,7 @@ const methodServices = [
     ],
   },
   {
-    number: '02',
+    number: '03',
     title: 'Monitoramento',
     description: 'Visão centralizada de eventos e indicadores para identificar anomalias, riscos e indisponibilidades.',
     icon: 'fa-brain',
@@ -32,7 +47,22 @@ const methodServices = [
     ],
   },
   {
-    number: '03',
+    number: '04',
+    title: 'Flow',
+    description: 'Leitura de fluxo para enxergar comportamento de tráfego, anomalias, origem de ataques e consumo da rede.',
+    icon: 'fa-water',
+    cadence: 'Análise de tráfego',
+    deliverables: [
+      'Visibilidade de origem e destino',
+      'Análise de picos e anomalias',
+      'Apoio na identificação de ataques',
+      'Leitura de consumo por perfil',
+      'Histórico para investigação técnica',
+      'Base para decisões de capacidade',
+    ],
+  },
+  {
+    number: '05',
     title: 'Documentação de redes',
     description: 'Topologias, ativos, padrões e histórico técnico centralizados para reduzir dependências e improvisos.',
     icon: 'fa-file-lines',
@@ -47,7 +77,7 @@ const methodServices = [
     ],
   },
   {
-    number: '04',
+    number: '06',
     title: 'Suporte NOC',
     description: 'Apoio especializado para incidentes, mudanças, troubleshooting e decisões críticas dentro da cobertura contratada.',
     icon: 'fa-headset',
@@ -62,7 +92,7 @@ const methodServices = [
     ],
   },
   {
-    number: '05',
+    number: '07',
     title: 'Mentoria e acompanhamento',
     description: 'Reuniões bimestrais para revisar prioridades, orientar decisões e conduzir o plano de evolução da rede.',
     icon: 'fa-people-arrows',
@@ -77,7 +107,7 @@ const methodServices = [
     ],
   },
   {
-    number: '06',
+    number: '08',
     title: 'Relatório de desempenho',
     description: 'Visão dos indicadores, riscos, avanços e próximos investimentos recomendados para a infraestrutura.',
     icon: 'fa-chart-line',
@@ -92,16 +122,16 @@ const methodServices = [
     ],
   },
   {
-    number: '07',
+    number: '09',
     title: 'Suporte em tempo real',
-    description: 'Canal direto com especialistas para apoiar a Vcom quando uma situação exigir resposta rápida.',
+    description: 'Canal direto com especialistas para apoiar a Jato 3 Fibra quando uma situação exigir resposta rápida.',
     icon: 'fa-comments',
     cadence: 'Resposta imediata',
     deliverables: [
       'Canal direto com especialistas',
       'Orientação em situações urgentes',
       'Validação antes de mudanças críticas',
-      'Apoio remoto ao time da Vcom',
+      'Apoio remoto ao time da Jato 3 Fibra',
       'Decisões técnicas com mais segurança',
       'Comunicação contínua durante incidentes',
     ],
@@ -134,17 +164,17 @@ export default function MethodSection() {
                 <span>Provedor</span>
               </div>
               <div>
-                <span className="eyebrow text-[var(--cobalt)]">Sete frentes integradas</span>
+                <span className="eyebrow text-[var(--cobalt)]">Frentes integradas</span>
                 <h3>Estratégia, execução e acompanhamento no mesmo método.</h3>
               </div>
             </div>
 
             <p className="method-intro-copy">
-              A Vcom deixa de depender apenas de acionamentos pontuais e passa a contar com um time que monitora, apoia e conduz a evolução da rede.
+              A Jato 3 Fibra deixa de carregar sozinha a responsabilidade técnica da rede e passa a contar com um time que protege, monitora, apoia e conduz a evolução.
             </p>
 
             <div className="method-intro-pillars">
-              <span><i className="fa-solid fa-compass" /> Direção</span>
+              <span><i className="fa-solid fa-shield-halved" /> Segurança</span>
               <span><i className="fa-solid fa-gears" /> Execução</span>
               <span><i className="fa-solid fa-chart-line" /> Evolução</span>
             </div>
@@ -214,13 +244,13 @@ export default function MethodSection() {
               Menos improviso.<br />
               <em>99% preparada.</em>
             </strong>
-            <p>Uma rede acompanhada por especialistas, orientada por dados e conectada às metas de crescimento da Vcom Telecom.</p>
+            <p>Uma rede acompanhada por especialistas, orientada por dados e conectada às metas de crescimento da Jato 3 Fibra.</p>
           </article>
         </div>
 
         <div className="method-footer">
           <div className="method-seal"><strong>99%</strong><span>Provedor</span></div>
-          <p>Sete frentes trabalhando juntas para transformar suporte técnico em evolução contínua.</p>
+          <p>Segurança, monitoramento, Flow, engenharia e suporte trabalhando juntos para transformar suporte técnico em evolução contínua.</p>
           <a href="#sobre" className="button">
             Conhecer quem executa
             <i className="fa-solid fa-arrow-down text-xs" />

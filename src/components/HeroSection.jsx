@@ -1,6 +1,6 @@
 function NetworkVisual() {
   return (
-    <div className="network-visual" aria-label="Representação visual da evolução da rede Vcom Telecom">
+    <div className="network-visual" aria-label="Representação visual da evolução da rede Jato 3 Fibra">
       <div className="network-grid" />
       <div className="network-glow" />
 
@@ -12,7 +12,7 @@ function NetworkVisual() {
 
       <div className="network-node node-main">
         <div className="node-core"><i className="fa-solid fa-network-wired" /></div>
-        <div><span>CORE</span><strong>Vcom Telecom</strong></div>
+        <div><span>CORE</span><strong>Jato 3 Fibra</strong></div>
       </div>
 
       <div className="network-node node-top">
@@ -55,17 +55,17 @@ export default function HeroSection() {
         <div className="relative z-10 max-w-[700px]">
           <div className="section-label">
             <span>01</span>
-            <p className="text-lg">Diagnóstico Vcom Telecom</p>
+            <p className="text-lg">Diagnóstico Jato 3 Fibra</p>
           </div>
 
           <h1 className="hero-title mt-8">
-            Sua rede precisa ganhar
-            <span> visibilidade e controle.</span>
+            Segurança e previsibilidade para
+            <span> mudar o nível do provedor.</span>
           </h1>
 
           <p className="mt-7 max-w-[610px] text-lg leading-[1.7] text-[var(--navy)]/70 md:text-xl">
-            Uma proposta estratégica para transformar a operação da Vcom Telecom em uma base
-            <strong className="font-semibold text-[var(--navy)]"> monitorada, responsiva e mais madura.</strong>
+            Uma proposta estratégica para tirar a pressão técnica da Jato 3 Fibra e transformar a operação em uma base
+            <strong className="font-semibold text-[var(--navy)]"> segura, monitorada e preparada para responder a ataques e incidentes.</strong>
           </p>
 
           <div className="mt-10 flex flex-col gap-4 sm:flex-row sm:items-center">
@@ -84,8 +84,8 @@ export default function HeroSection() {
 
           <div className="mt-16 grid max-w-[620px] grid-cols-3 border-t border-[var(--navy)]/12 pt-7">
             {[
-              ['Monitoramento', 'Visão da rede'],
-              ['Suporte', 'Resposta especializada'],
+              ['Segurança', 'Defesa contra riscos'],
+              ['Monitoramento', 'Visão e Flow'],
               ['Execução', 'Time especialista'],
             ].map(([title, subtitle], index) => (
               <div key={title} className={index ? 'border-l border-[var(--navy)]/12 pl-5 md:pl-8' : ''}>

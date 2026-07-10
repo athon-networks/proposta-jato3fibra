@@ -12,7 +12,7 @@ export default function ScaleReadySection() {
             <span> pra escalar?</span>
           </h2>
           <p className="mt-7 text-lg leading-[1.75] text-[var(--navy)]/70">
-            Esses são os pilares que a Vcom Telecom precisa ter em pé para ganhar visibilidade, suporte previsível e maturidade operacional.
+            Esses são os pilares que a Jato 3 Fibra precisa ter em pé para ganhar segurança, suporte previsível e maturidade operacional.
           </p>
         </div>
       </div>

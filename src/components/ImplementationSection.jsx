@@ -1,8 +1,8 @@
 const steps = [
   {
     number: '01',
-    title: 'Levantamento da rede',
-    description: 'Mapeamento inicial da estrutura atual, ativos críticos, links, equipamentos e pontos que precisam ganhar visibilidade.',
+    title: 'Diagnóstico da rede',
+    description: 'Mapeamento inicial da estrutura atual, ativos críticos, links, equipamentos, riscos de segurança e pontos que precisam ganhar visibilidade.',
     icon: 'fa-magnifying-glass-chart',
   },
   {
@@ -14,17 +14,29 @@ const steps = [
   {
     number: '03',
     title: 'Implantação do monitoramento',
-    description: 'Configuração dos indicadores, alertas e painéis para a Vcom acompanhar a saúde da rede com mais clareza.',
+    description: 'Configuração dos indicadores, alertas e painéis para a Jato 3 Fibra acompanhar a saúde da rede com mais clareza.',
     icon: 'fa-display',
   },
   {
     number: '04',
+    title: 'Ativação de Flow',
+    description: 'Organização da leitura de tráfego para apoiar investigação de anomalias, ataques e decisões de capacidade.',
+    icon: 'fa-water',
+  },
+  {
+    number: '05',
+    title: 'Plano de segurança',
+    description: 'Definição dos primeiros ajustes de proteção, mitigação e resposta para reduzir exposição operacional.',
+    icon: 'fa-shield-halved',
+  },
+  {
+    number: '06',
     title: 'Documentação inicial',
     description: 'Registro da base técnica, ativos, acessos, topologia e informações essenciais para reduzir dependência e improviso.',
     icon: 'fa-file-lines',
   },
   {
-    number: '05',
+    number: '07',
     title: 'Primeira reunião de alinhamento',
     description: 'Validação do cenário, definição de prioridades e combinação da rotina de suporte e acompanhamento com a operação.',
     icon: 'fa-people-arrows',
@@ -42,17 +54,17 @@ export default function ImplementationSection() {
               Implantação inicial
             </div>
             <h2 className="section-title mt-7 text-white">
-              Como a Vcom começa
-              <span> a ganhar visibilidade.</span>
+              Como a Jato 3 Fibra começa
+              <span> a ganhar segurança e previsibilidade.</span>
             </h2>
           </div>
 
           <div className="max-w-[620px] lg:justify-self-end">
             <p className="text-lg leading-[1.75] text-white/70">
-              O início do projeto transforma a operação atual em uma base monitorada, organizada e pronta para suporte especializado.
+              O início do projeto transforma a operação atual em uma base monitorada, documentada e pronta para resposta especializada.
             </p>
             <p className="mt-5 text-base leading-8 text-white/55">
-              Antes de evoluir engenharia e suporte, a Athon estrutura o ponto de partida: entender a rede, cadastrar os ativos, ativar o monitoramento e alinhar prioridades.
+              Antes de evoluir engenharia e suporte, a Athon estrutura o ponto de partida: entender a rede, cadastrar os ativos, ativar monitoramento e Flow, organizar segurança e alinhar prioridades.
             </p>
           </div>
         </div>
@@ -73,7 +85,7 @@ export default function ImplementationSection() {
         <div className="implementation-result">
           <div>
             <span className="eyebrow text-[var(--cobalt-soft)]">Resultado da implantação</span>
-            <strong>Uma operação com ativos mapeados, monitoramento ativo e prioridades claras para o próximo ciclo.</strong>
+            <strong>Uma operação com ativos mapeados, monitoramento ativo, leitura de tráfego e prioridades claras para o próximo ciclo.</strong>
           </div>
           <a href="#investimento" className="button">
             Ver opções de investimento

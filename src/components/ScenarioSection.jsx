@@ -1,14 +1,14 @@
 const foundations = [
   {
     number: '01',
-    title: 'Visibilidade da rede',
-    description: 'Monitoramento para enxergar disponibilidade, alertas e pontos de atenção antes da operação ficar sem direção.',
+    title: 'Segurança da rede',
+    description: 'Proteção, análise de tráfego e resposta para reduzir exposição a ataques, indisponibilidade e decisões reativas.',
     icon: 'fa-diagram-project',
   },
   {
     number: '02',
     title: 'Suporte especialista',
-    description: 'Atendimento técnico com disponibilidade combinada, sem depender de uma única pessoa chamada sob demanda.',
+    description: 'Atendimento técnico com disponibilidade combinada, sem depender de improviso quando a operação fica pressionada.',
     icon: 'fa-layer-group',
   },
   {
@@ -21,14 +21,14 @@ const foundations = [
 
 function CurrentScenarioCard() {
   const limitations = [
-    'Atende quando é chamado, sem presença contínua na operação.',
-    'Nem sempre tem disponibilidade no momento em que o suporte é necessário.',
-    'É um serviço terceirizado pago por acionamento.',
-    'Provavelmente depende de uma pessoa generalista.',
-    'Não entrega visão clara da saúde da rede.',
-    'Não mantém uma rotina estruturada de monitoramento e acompanhamento.',
+    'Depende de acionamento quando o problema já está acontecendo.',
+    'Não tem um time especializado dedicado a redes de provedor.',
+    'A configuração de equipamentos fica centralizada demais na rotina do provedor.',
+    'Ataques DDoS e incidentes de segurança geram pressão operacional e perda de previsibilidade.',
+    'Não entrega visão clara de tráfego, anomalias e pontos críticos.',
+    'Não mantém uma rotina estruturada de monitoramento, Flow e acompanhamento.',
     'Não cria um plano técnico para aumentar a maturidade do provedor.',
-    'Deixa a Vcom sem previsibilidade sobre riscos, incidentes e prioridades.',
+    'Deixa a Jato 3 Fibra carregando uma responsabilidade técnica que pode ser compartilhada com especialistas.',
   ]
 
   return (
@@ -36,13 +36,13 @@ function CurrentScenarioCard() {
       <div className="flex items-start justify-between gap-4">
         <div>
           <span className="eyebrow text-white/50">Cenário atual</span>
-          <h3 className="mt-3 text-2xl font-bold tracking-[-0.04em] text-white">TI terceirizado sob demanda</h3>
+          <h3 className="mt-3 text-2xl font-bold tracking-[-0.04em] text-white">Operação sob pressão técnica</h3>
         </div>
         <div className="card-icon card-icon-muted"><i className="fa-solid fa-server" /></div>
       </div>
 
       <p className="comparison-intro comparison-intro-dark">
-        Resolve chamados pontuais, mas não entrega monitoramento, disponibilidade contínua e direção técnica para a rede.
+        Resolve parte da configuração, mas não entrega a segurança, o monitoramento e a previsibilidade que a rede precisa.
       </p>
 
       <div className="difference-list difference-list-dark">
@@ -56,7 +56,7 @@ function CurrentScenarioCard() {
 
       <div className="comparison-summary comparison-summary-dark">
         <span>Resultado</span>
-        <strong>Pouca visibilidade, dependência externa e suporte sem previsibilidade.</strong>
+        <strong>Risco elevado, resposta reativa e responsabilidade excessiva dentro do provedor.</strong>
       </div>
     </div>
   )
@@ -64,10 +64,10 @@ function CurrentScenarioCard() {
 
 function SpecialistCard() {
   const advantages = [
-    'Implanta uma rotina de monitoramento para aumentar a visibilidade da rede.',
+    'Implanta uma rotina de segurança, monitoramento e Flow para aumentar visibilidade.',
     'Dá suporte com equipe especializada e escopo claro.',
-    'Acompanha indicadores, alertas e prioridades técnicas.',
-    'Ajuda a Vcom a sair do acionamento pontual para uma gestão mais madura.',
+    'Acompanha indicadores, alertas, anomalias e prioridades técnicas.',
+    'Ajuda a Jato 3 Fibra a sair do modo reativo para uma gestão mais previsível.',
     'Organiza decisões de engenharia conforme o plano contratado.',
     'Apoia incidentes, mudanças e troubleshooting com mais segurança.',
     'Cria um ciclo bimestral de acompanhamento nos planos de evolução.',
@@ -78,14 +78,14 @@ function SpecialistCard() {
     <div className="specialist-card">
       <div className="flex items-start justify-between gap-4">
         <div>
-          <span className="eyebrow text-[var(--cobalt)]">O que a Vcom precisa</span>
+          <span className="eyebrow text-[var(--cobalt)]">O que a Jato 3 Fibra precisa</span>
           <h3 className="mt-3 text-2xl font-bold tracking-[-0.04em] text-[var(--navy)]">Equipe especialista em redes</h3>
         </div>
         <div className="card-icon"><i className="fa-solid fa-people-group" /></div>
       </div>
 
       <p className="comparison-intro comparison-intro-light">
-        Assume uma atuação estruturada, conecta monitoramento, suporte e engenharia e conduz a evolução da rede.
+        Assume uma atuação estruturada, conecta segurança, monitoramento, suporte e engenharia e conduz a evolução da rede.
       </p>
 
       <div className="difference-list difference-list-light">
@@ -99,7 +99,7 @@ function SpecialistCard() {
 
       <div className="comparison-summary comparison-summary-light">
         <span>Resultado</span>
-        <strong>Rede mais visível, suporte previsível e evolução técnica acompanhada.</strong>
+        <strong>Rede mais segura, suporte previsível e evolução técnica acompanhada.</strong>
       </div>
     </div>
   )
@@ -116,21 +116,21 @@ export default function ScenarioSection() {
               O ponto de virada
             </div>
             <h2 className="section-title mt-7 text-white">
-              Hoje a rede depende de acionamento.
-              <span> O próximo passo é maturidade.</span>
+              Hoje a rede precisa reduzir risco.
+              <span> O próximo passo é previsibilidade.</span>
             </h2>
           </div>
 
           <div className="max-w-[620px] lg:justify-self-end">
             <div className="scenario-client-logo">
-              <strong>Vcom Telecom</strong>
+              <strong>Jato 3 Fibra</strong>
             </div>
             <p className="text-lg leading-[1.75] text-white/70">
-              A Vcom Telecom já conta com apoio de TI terceirizado, mas esse modelo depende de chamado, disponibilidade e acionamentos pontuais.
-              <strong className="font-semibold text-white"> Isso limita a visão real da rede.</strong>
+              A Jato 3 Fibra precisa reduzir a exposição a ataques DDoS, ganhar leitura técnica da rede e diminuir a dependência interna sobre configuração e resposta a incidentes.
+              <strong className="font-semibold text-white"> Isso exige um time especializado acompanhando a operação.</strong>
             </p>
             <p className="mt-5 text-lg leading-[1.75] text-white/70">
-              Para dar um passo à frente na maturidade do provedor, a Vcom precisa de monitoramento, suporte especializado e um método de evolução contínua.
+              Para mudar o nível do provedor, a base precisa combinar segurança de redes, monitoramento, Flow, engenharia e uma rotina clara de evolução.
             </p>
           </div>
         </div>
