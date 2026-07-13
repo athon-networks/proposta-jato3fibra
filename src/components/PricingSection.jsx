@@ -33,7 +33,7 @@ const plans = [
       'Reunião bimestral',
       'Relatório semestral',
       'Documentação de redes',
-      'Visita técnica cobrada adicionalmente',
+      'Duas visitas técnicas por mês; posterior a isso é cobrado adicionalmente',
     ],
   },
   {
