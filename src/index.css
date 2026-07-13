@@ -2368,8 +2368,7 @@ button {
   }
 
   .network-visual {
-    min-height: 510px;
-    border-radius: 20px;
+    display: none;
   }
 
   .node-top {
